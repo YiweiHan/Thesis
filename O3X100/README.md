@@ -69,3 +69,6 @@ The text file can then be imported into MATLAB and plotted like so:
 cloud = importdata("cloud.txt");
 pcshow(cloud(:,1:3), cloud(:,4));
 ```
+  
+Using the sample cloud data of my hand, it looks something like this:  
+![](https://github.com/YiweiHan/Thesis/raw/master/O3X100/hand_cloud.png)
