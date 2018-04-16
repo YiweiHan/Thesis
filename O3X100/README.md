@@ -72,7 +72,7 @@ cloud = importdata("cloud.txt");
 pcshow(cloud(:,1:3), cloud(:,4));
 ```
   
-Using the sample cloud data of my hand, it looks something like this:  
+Using the sample cloud data of my hand, it looks something like this (with higher intensity points displayed using warmer colours):  
 ![](https://github.com/YiweiHan/Thesis/raw/master/O3X100/hand_cloud_intensity.png)
 
 ![](https://github.com/YiweiHan/Thesis/raw/master/O3X100/hand_cloud.gif)
