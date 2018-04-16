@@ -72,3 +72,5 @@ pcshow(cloud(:,1:3), cloud(:,4));
   
 Using the sample cloud data of my hand, it looks something like this:  
 ![](https://github.com/YiweiHan/Thesis/raw/master/O3X100/hand_cloud.png)
+
+![](https://github.com/YiweiHan/Thesis/raw/master/O3X100/hand_cloud.gif)
