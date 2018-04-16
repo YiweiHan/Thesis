@@ -7,7 +7,7 @@
 
 int main(int argc, const char **argv) {
     auto cam = ifm3d::Camera::MakeShared();
-    auto fg = std::make_shared<ifm3d::FrameGrabber>(cam, ifm3d::IMG_CART);
+    auto fg = std::make_shared<ifm3d::FrameGrabber>(cam, ifm3d::IMG_CART | ifm3d::IMG_AMP);
     auto img = std::make_shared<ifm3d::ImageBuffer>();
 
     auto i = 0;
