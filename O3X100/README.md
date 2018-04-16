@@ -64,6 +64,8 @@ Run the capture program by:
 The program prints the point cloud data to `stdout`, which means the output can be redirected into a text file like so:  
 `./O3X100 > cloud.txt`  
   
+The output is in a csv format with 4 columns. The first 3 is the cartesian coordinates of each point in the x, y and z axes. The fourth column is the reflectve intensity of the point. This intensity value is arbitrary in scale, but the more reflective the point, the higher this value is for that point.
+  
 The text file can then be imported into MATLAB and plotted like so:
 ```
 cloud = importdata("cloud.txt");
@@ -71,6 +73,6 @@ pcshow(cloud(:,1:3), cloud(:,4));
 ```
   
 Using the sample cloud data of my hand, it looks something like this:  
-![](https://github.com/YiweiHan/Thesis/raw/master/O3X100/hand_cloud.png)
+![](https://github.com/YiweiHan/Thesis/raw/master/O3X100/hand_cloud_intensity.png)
 
 ![](https://github.com/YiweiHan/Thesis/raw/master/O3X100/hand_cloud.gif)
